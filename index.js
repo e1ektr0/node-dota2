@@ -18,7 +18,7 @@
 
 const util = require("util");
 const Long = require("long");
-const steam = require("steam");
+const steam = require("steam-with-proyx");
 const steam_resources = require("steam-resources");
 const { createLogger, format, transports } = require('winston');
 const { EventEmitter } = require('events');
